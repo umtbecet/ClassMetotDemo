@@ -34,6 +34,7 @@ namespace ClassMetotDemo
             Customer[] customers = new Customer[] {customer1,customer2 };
             CustomerManager customerManager = new CustomerManager();
 
+            customerManager.Add(customer1);
             customerManager.Add(customer2);
             customerManager.Delete(customer3);
         }
